@@ -1,7 +1,7 @@
 var request = require('request');
 var fs = require('fs');
 
-const KEY = `eedfb92f-8492-4ab0-a31e-e7d89156871b`;
+const KEY = `enter_key`;
 
 var postUrl = `https://api.hubapi.com/filemanager/api/v3/files/upload?hapikey=${KEY}`;
 

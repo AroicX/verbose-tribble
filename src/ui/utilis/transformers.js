@@ -1,8 +1,8 @@
 import axios from 'axios';
 var fs = require('fs');
 
-const ACCESS_TOKEN = '140347-4084f1f3-b692-4478-82f0-6142a7278af4';
-const HUBSPOT_KEY = `eedfb92f-8492-4ab0-a31e-e7d89156871b`;
+const ACCESS_TOKEN = '';
+const HUBSPOT_KEY = `enter-key`;
 
 // const FILE_ID = 'fileId';
 // const NODE_ID = 'Check the url for something like => 3%3A2';
