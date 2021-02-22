@@ -79,7 +79,7 @@ export function hubSpot(blob) {
   const formData = new FormData();
   formData.append('file', file);
 
-  return axios.post(`https://basecash.test/api/upload`, formData, {
+  return axios.post(`https://basecash.herokuapp.com/api/upload`, formData, {
     headers: {
       'content-type': 'application/json',
       Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiR2FicmllbCBPa3Vub2xhIiwiZW1haWwiOiJBcm93b3NlZ2JlNjdAZ21haWwuY29tIiwiaWQiOjEsImlhdCI6MTYxMjYxNTc1NiwiZXhwIjoxNjQ0MTUxNzU2fQ.PZyV6oH6HZlREok_uBB9Zhzx5V-xHU06bgGK9A_ND4g`
