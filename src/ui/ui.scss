@@ -1,0 +1,114 @@
+$primary-clolr: #0D1028;
+$primary1-clolr: #8352FD;
+$secondary-clolr: #3498DB;
+$secondary2-clolr: #2FB5FC;
+$netural-clolr: #E3E8FF;
+
+.font-sm {
+  font-size: 10px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.checkbox {
+  position: absolute;
+  top: -8px;
+  right: 0px;
+  z-index: 100;
+}
+
+.button {
+  border: none !important;
+  outline: none;
+  border-radius: .3rem;
+  cursor: pointer;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: Poppins;
+  overflow-x: hidden;
+}
+
+.brix {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: .5rem;
+  background: #fff;
+  border-bottom: 0.02rem solid #999;
+  // color: #fff;
+  z-index: 1000;
+}
+
+.footer {
+  background: #fff;
+  width: 100%;
+  position: fixed;
+  bottom: 2px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: .5rem;
+  border-top: 0.02rem solid #999;
+
+}
+
+.text-white {
+  color: #fff;
+}
+
+.image-grid {
+  position: relative;
+  top: 3.5rem;
+  margin: .5rem 0;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+
+  div {
+    position: relative;
+
+    img {
+      display: block;
+      padding: 2px;
+      height: 100px;
+      // background: $primary-clolr;
+      margin: 2px 0;
+    }
+  }
+}
+
+.message{
+  position: relative;
+  top: 3rem;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: green;
+  color: #fff;
+  padding: 1rem 2rem;
+  transition: all 5s ease-in-out;
+
+
+}

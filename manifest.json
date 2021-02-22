@@ -1,0 +1,9 @@
+{
+  "name": "BRIX",
+	"id": "943206973219514360",
+	"api": "1.0.0",
+	"main": "dist/code.js",
+	"ui": "dist/ui.html"
+}
+
+

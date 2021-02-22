@@ -1,0 +1,44 @@
+ {
+  "objects": [{
+    "id": 41664041009,
+    "portal_id": 358710,
+    "name": "image",
+    "size": 117096,
+    "height": 421,
+    "width": 421,
+    "encoding": "png",
+    "type": "IMG",
+    "extension": "png",
+    "cloud_key": "hubfs/358710/docs/image.png",
+    "s3_url": "http://cdn1.hubspot.com/hubfs/358710/docs/image.png",
+    "friendly_url": "https://f.hubspotusercontent10.net/hubfs/358710/docs/image.png",
+    "alt_key": "hubfs/358710/docs/image",
+    "alt_key_hash": "96a9cb5c1a84cc2cfde75fa3233d2a16",
+    "title": "image",
+    "meta": {
+      "url_scheme": "SIMPLIFIED",
+      "allows_anonymous_access": true,
+      "expires_at": 1621265364406,
+      "indexable": true
+    },
+    "created": 1613575764474,
+    "updated": 1613575764474,
+    "deleted_at": 0,
+    "folder_id": 41664041007,
+    "hidden": false,
+    "cloud_key_hash": "bdf92785dc7865a5504da29c7dd6c46d",
+    "archived": false,
+    "created_by": null,
+    "deleted_by": null,
+    "replaceable": true,
+    "default_hosting_url": "https://f.hubspotusercontent10.net/hubfs/358710/docs/image.png",
+    "url": "https://f.hubspotusercontent10.net/hubfs/358710/docs/image.png",
+    "is_indexable": true,
+    "cdn_purge_embargo_time": null,
+    "file_hash": "2c5f379913b12d93e95529d96041abdd"
+  }]
+}
+
+
+
+Access to fetch at 'https://gitlab.com/api/graphql' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an o 
